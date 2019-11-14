@@ -18,6 +18,7 @@ class CashRegister
       counter += 1
     end
       else
+        @last_trans = price
         @total = (@total + price)
         @basket << title 
         end
