@@ -37,7 +37,7 @@ end
 
 def void_last_transaction
   @basket.pop(1)
-  
+  @total 
 end
 
 end
