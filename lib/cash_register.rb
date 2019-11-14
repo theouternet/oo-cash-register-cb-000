@@ -37,7 +37,8 @@ end
 
 def void_last_transaction
   if @basket = nil 
-    @total 
+    @total = 0.0 
+  else
   @basket.pop(1)
   @total = (@total - @price)
 end
