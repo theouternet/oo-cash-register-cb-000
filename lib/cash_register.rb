@@ -36,7 +36,7 @@ def items
 end
 
 def void_last_transaction
-  if @basket = nil 
+  if @basket = [] 
     @total = 0.0 
   else
   @basket.pop(1)
