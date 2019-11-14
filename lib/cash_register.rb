@@ -42,7 +42,7 @@ def void_last_transaction
     @total.to_f
   else
   @basket.pop(1)
-  @total = (@total - @price)
+  @total = (@total - @last_trans)
 end
 end
 
